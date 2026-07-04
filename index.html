@@ -494,7 +494,6 @@
   <!-- LEVEL 1 -->
   <section class="screen" id="screen-l1">
     <div class="content-card fade-in">
-      <div class="chapter-mark">Chapter One</div>
       <h2>The Key</h2>
       <div class="lock-heart-wrap" id="lock-heart">
         <div class="heart-glow"></div>
@@ -518,7 +517,6 @@
   <!-- LEVEL 2 -->
   <section class="screen" id="screen-l2">
     <div class="content-card fade-in">
-      <div class="chapter-mark">Chapter Two</div>
       <div class="avatar-frame small"><img class="hero-avatar-img" alt="You" src=""></div>
       <h2>Collect Our Memories</h2>
       <p style="opacity:.75;font-size:.92rem;">Tap each heart to remember.</p>
@@ -532,7 +530,6 @@
   <!-- LEVEL 3 -->
   <section class="screen" id="screen-l3">
     <div class="content-card fade-in">
-      <div class="chapter-mark">Chapter Three</div>
       <h2>Find the Missing Piece</h2>
       <p style="opacity:.75;font-size:.92rem;">Tap the words, in order, to mend the broken heart.</p>
       <div class="puzzle-slots" id="puzzle-slots"></div>
@@ -790,8 +787,8 @@
   l2Continue.addEventListener("click", ()=> showScreen("screen-l3"));
 
   /* ---------------- Level 3: Puzzle ---------------- */
-  const correctOrder = ["I","Am","Truly","Sorry","My","Love"];
-  const shuffled = ["Truly","Love","I","Sorry","My","Am"];
+  const correctOrder = ["I","Am","Truly","Sorry","Cutiepie"];
+  const shuffled = ["Truly","Love","I","Sorry","Cutiepie"];
   const puzzleSlots = document.getElementById("puzzle-slots");
   const wordPool = document.getElementById("word-pool");
   const puzzleResult = document.getElementById("puzzle-result");
